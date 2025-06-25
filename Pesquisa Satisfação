@@ -4,7 +4,8 @@
   <tittle>Formulário</tittle>
  </head>
   <body>
-    <h1>
+    <form method="post" action="procesar-pesquisa.html"></form>
+   <h1>
         Pesquisa de Satisfação
     </h1>
     <h2> 
@@ -13,17 +14,17 @@
     <form>
          <p>
          <label for="Nome">Nome:</label>
-         <input "text" placeholder="Nome" id="Nome" />
+         <input type="text" placeholder="Nome" id="Nome" />
          </p>
         
          <p>
          <label for="Email"> Email:</label>
-         <input "email" placeholder="Email" id="Email" />
+         <input type="email" placeholder="Email" id="Email" />
          </p>
          
          <p>
          <label for="Telefone">Telefone:</label>
-         <input "number" placeholder="Telefone" id="Telefone" />
+         <input type= "tel" placeholder="Telefone" id="Telefone" />
          </p>
 
          <p>
@@ -69,3 +70,4 @@
     </form>
   </body>
 </html>
+   
